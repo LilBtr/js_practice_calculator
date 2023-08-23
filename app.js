@@ -41,7 +41,7 @@ function resultAction (number) {
 function computeNumbers (num1, num2, actionSymbol) {
 	const n1 = parseFloat(num1.value)
 	const n2 = parseFloat(num2.value)
-	// debugger // останавливает код тут
+	// 	debugger // останавливает код для дебага
 	if (actionSymbol == '+') {
 		remainderDisplay.style.display = 'none'
 		return n1 + n2
